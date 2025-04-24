@@ -1,12 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🦁 FURIBOT – Chatbot para fãs da FURIA
 
-Currently, two official plugins are available:
+Projeto desenvolvido como parte do desafio técnico para o processo seletivo de estágio em Engenharia de Software na FURIA.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Visão geral
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O **FURIBOT** é um chatbot interativo feito com React + Vite que oferece aos fãs da FURIA uma experiência divertida, informativa e personalizada. Ele conecta os torcedores com os dados reais de jogos, memes da comunidade, curiosidades do time e até o manto oficial da loja.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 📅 Consulta ao **próximo jogo** da FURIA (via API)
+- 🏆 **Último resultado** com placar e série
+- 📊 **Ranking de torneios** onde o time participou
+- 🎲 **Jogo aleatório** (match aleatório do cenário competitivo)
+- 🧠 **Fatos curiosos** sobre o time e jogadores
+- 😂 **Memes personalizados**
+- 🛒 **Loja oficial** com link clicável
+- 🌍 **Multilíngue** (Português/Inglês)
+- 🎖️ **Sistema de XP do torcedor**
+  - Cada interação soma XP
+  - Barra de progresso visual
+  - Exibição de nível atual
+
+---
+
+## 🧠 Tecnologias utilizadas
+
+- React + Vite
+- Axios (para chamadas à API da [PandaScore](https://developers.pandascore.co/))
+- CSS puro (visual dark + identidade FURIA)
+- LocalStorage (persistência de XP)
+- HTML seguro com `dangerouslySetInnerHTML`
+- Git + GitHub para versionamento
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+furibot/
+├── src/
+│   ├── components/
+│   │   └── Chat.jsx
+│   ├── services/
+│   │   └── pandascoreApi.js
+│   └── App.jsx
+├── public/
+├── Chat.css
+└── README.md
+```
+
+---
+
+## 🚀 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/furibot.git
+
+# Acesse a pasta
+cd furibot
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```
+
+---
+
+## 📸 Imagem (opcional)
+
+> Coloque um print da interface aqui:
+> ![furibot print](./screenshot.png)
+
+---
+
+## 🧑‍💻 Autor
+
+**Hugo Farranha**  
+[LinkedIn](https://linkedin.com/in/seu-usuario) • [GitHub](https://github.com/seu-usuario)
+
+---
+
+## 🦁 GL HF!
+
+Esse projeto foi feito com muito carinho, técnica e criatividade — focado em oferecer algo real para a comunidade FURIA. Obrigado pela oportunidade!
