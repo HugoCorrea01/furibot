@@ -74,12 +74,6 @@ npm run dev
 
 ---
 
-## 📸 Imagem (opcional)
-
-> Coloque um print da interface aqui:
-> ![furibot print](./screenshot.png)
-
----
 
 ## 🧑‍💻 Autor
 
