@@ -84,7 +84,7 @@ npm run dev
 ## 🧑‍💻 Autor
 
 **Hugo Farranha**  
-[LinkedIn](https://linkedin.com/in/seu-usuario) • [GitHub](https://github.com/seu-usuario)
+[LinkedIn](https://www.linkedin.com/in/hugo-farranha-843724268/) • [GitHub](https://github.com/hugocorrea01)
 
 ---
 
