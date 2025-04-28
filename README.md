@@ -41,6 +41,21 @@ O **FURIBOT** é um chatbot interativo feito com React + Vite que oferece aos f�
 - Git + GitHub para versionamento
 
 ---
+🔐 Observação sobre APIs
+O projeto usa integração com a API PandaScore para buscar dados reais de partidas de CS:GO.
+
+Foi utilizado um token pessoal para fins acadêmicos e de desafio técnico.
+
+🧠 Diferenciais Adicionados
+Chat multilíngue (Português 🇧🇷 / Inglês 🇺🇸)
+
+Sistema de gamificação de XP FURIOSO
+
+Design responsivo, escuro e tematizado na identidade visual da FURIA
+
+Mensagens interativas e experiência personalizada para o fã
+
+
 
 ## 📂 Estrutura do projeto
 
