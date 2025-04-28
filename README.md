@@ -1,6 +1,8 @@
 
 # 🦁 FURIBOT – Chatbot para fãs da FURIA
 
+https://furibot.vercel.app/
+
 Projeto desenvolvido como parte do desafio técnico para o processo seletivo de estágio em Engenharia de Software na FURIA.
 
 ---
