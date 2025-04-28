@@ -4,60 +4,62 @@
 ## 🌎 Link do Projeto Online
 🔗 [Acessar o FURIBOT Online](https://furibot.vercel.app/)
 
-Projeto desenvolvido como parte do desafio técnico para o processo seletivo de estágio em Engenharia de Software na FURIA.
+Projeto desenvolvido como parte do desafio técnico para o processo seletivo de Estágio em Engenharia de Software da FURIA.
 
 ---
 
-## 🎯 Visão geral
+## 🎯 Visão Geral
 
-O **FURIBOT** é um chatbot interativo feito com React + Vite que oferece aos fãs da FURIA uma experiência divertida, informativa e personalizada. Ele conecta os torcedores com os dados reais de jogos, memes da comunidade, curiosidades do time e até o manto oficial da loja.
+O **FURIBOT** é um chatbot interativo feito com **React + Vite** que oferece aos fãs da FURIA uma experiência divertida, informativa e personalizada.  
+Ele conecta os torcedores com dados reais de jogos, memes da comunidade, curiosidades do time e até o manto oficial da loja.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- 📅 Consulta ao **próximo jogo** da FURIA (via API)
-- 🏆 **Último resultado** com placar e série
-- 📊 **Ranking de torneios** onde o time participou
-- 🎲 **Jogo aleatório** (match aleatório do cenário competitivo)
+- 📅 Consulta ao **próximo jogo** da FURIA (via API PandaScore)
+- 🏆 Consulta do **último resultado** com placar e campeonato
+- 📊 Exibição do **ranking de torneios** da FURIA
+- 🎲 **Jogo aleatório** do cenário competitivo
 - 🧠 **Fatos curiosos** sobre o time e jogadores
-- 😂 **Memes personalizados**
-- 🛒 **Loja oficial** com link clicável
-- 🌍 **Multilíngue** (Português/Inglês)
-- 🎖️ **Sistema de XP do torcedor**
+- 😂 **Memes personalizados** para diversão da torcida
+- 🛒 Acesso à **loja oficial** da FURIA com link direto
+- 🌍 **Multilíngue**: suporte a Português 🇧🇷 e Inglês 🇺🇸
+- 🎖️ **Sistema de XP FURIOSO**:
   - Cada interação soma XP
   - Barra de progresso visual
-  - Exibição de nível atual
+  - Exibição do nível de torcedor
 
 ---
 
-## 🧠 Tecnologias utilizadas
+## 🧠 Tecnologias Utilizadas
 
-- React + Vite
-- Axios (para chamadas à API da [PandaScore](https://developers.pandascore.co/))
-- CSS puro (visual dark + identidade FURIA)
-- LocalStorage (persistência de XP)
-- HTML seguro com `dangerouslySetInnerHTML`
-- Git + GitHub para versionamento
+- **React + Vite**
+- **Axios** (para consumo da API [PandaScore](https://developers.pandascore.co/))
+- **CSS puro** (tema escuro + identidade visual FURIA)
+- **LocalStorage** (persistência de XP e progresso)
+- **HTML seguro** (`dangerouslySetInnerHTML` no React)
+- **Git + GitHub** para versionamento de código
 
 ---
-🔐 Observação sobre APIs
-O projeto usa integração com a API PandaScore para buscar dados reais de partidas de CS:GO.
 
-Foi utilizado um token pessoal para fins acadêmicos e de desafio técnico.
+## 🔐 Observações sobre API
 
-🧠 Diferenciais Adicionados
-Chat multilíngue (Português 🇧🇷 / Inglês 🇺🇸)
+- Integração com a **API PandaScore** para dados reais de partidas de CS:GO.
+- Foi utilizado um **token pessoal** para fins acadêmicos e de desafio técnico.
 
-Sistema de gamificação de XP FURIOSO
+---
 
-Design responsivo, escuro e tematizado na identidade visual da FURIA
+## 🚀 Diferenciais Adicionados
 
-Mensagens interativas e experiência personalizada para o fã
+- **Chat multilíngue** (Português 🇧🇷 / Inglês 🇺🇸)
+- **Sistema de gamificação** (XP FURIOSO e níveis de torcedor)
+- **Design responsivo e tematizado** inspirado na identidade da FURIA
+- **Mensagens interativas** para engajamento do fã
 
+---
 
-
-## 📂 Estrutura do projeto
+## 📂 Estrutura do Projeto
 
 ```bash
 furibot/
@@ -74,32 +76,34 @@ furibot/
 
 ---
 
-## 🚀 Como rodar localmente
+## 💻 Como Rodar Localmente
 
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/furibot.git
 
-# Acesse a pasta
+# Acesse a pasta do projeto
 cd furibot
 
 # Instale as dependências
 npm install
 
-# Rode o projeto
+# Rode o projeto em ambiente de desenvolvimento
 npm run dev
 ```
 
----
+O projeto estará disponível em `http://localhost:5173/`.
 
+---
 
 ## 🧑‍💻 Autor
 
 **Hugo Farranha**  
-[LinkedIn](https://www.linkedin.com/in/hugo-farranha-843724268/) • [GitHub](https://github.com/hugocorrea01)
+[LinkedIn](https://www.linkedin.com/in/hugo-farranha-843724268/) • [GitHub](https://github.com/HugoCorrea01)
 
 ---
 
 ## 🦁 GL HF!
 
-Esse projeto foi feito com  técnica e criatividade — focado em oferecer algo real para a comunidade FURIA. Obrigado pela oportunidade!
+Este projeto foi feito com técnica e criatividade, focado em oferecer uma experiência real para a comunidade FURIA.  
+**Obrigado pela oportunidade!** 🦁🔥
