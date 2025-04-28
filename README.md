@@ -1,7 +1,8 @@
 
 # 🦁 FURIBOT – Chatbot para fãs da FURIA
 
-https://furibot.vercel.app/
+## 🌎 Link do Projeto Online
+🔗 [Acessar o FURIBOT Online](https://furibot.vercel.app/)
 
 Projeto desenvolvido como parte do desafio técnico para o processo seletivo de estágio em Engenharia de Software na FURIA.
 
@@ -86,4 +87,4 @@ npm run dev
 
 ## 🦁 GL HF!
 
-Esse projeto foi feito com muito carinho, técnica e criatividade — focado em oferecer algo real para a comunidade FURIA. Obrigado pela oportunidade!
+Esse projeto foi feito com  técnica e criatividade — focado em oferecer algo real para a comunidade FURIA. Obrigado pela oportunidade!
